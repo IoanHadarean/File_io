@@ -1,0 +1,9 @@
+cd files(finds the files directory)
+
+pwd(print working directory)
+
+readlink -f (finds the absolute path of a file)
+
+cd . (goes back once)
+
+cd .. (goes back twice)
