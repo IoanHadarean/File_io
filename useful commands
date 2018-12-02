@@ -7,3 +7,7 @@ readlink -f (finds the absolute path of a file)
 cd . (goes back once)
 
 cd .. (goes back twice)
+
+f.tell() - tells the position of the cursor
+
+f.flush() - forces the print of the file output

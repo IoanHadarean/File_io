@@ -1,3 +1,4 @@
-Hello WorldAppended Line 1
+Hello World
+Appended Line 1
 Appended Line 2
 Appended Line 3
