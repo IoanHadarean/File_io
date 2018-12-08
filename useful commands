@@ -17,3 +17,5 @@ f.seek() - seeks for a cursor position in the file
 data = f.read() same thing as lines = f.read()
 
 cat questions.txt - reads from questions.txt and prints the output
+
+.strip() - method which removes any whitespace in a string
