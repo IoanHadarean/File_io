@@ -13,3 +13,6 @@ f.tell() - tells the position of the cursor
 f.flush() - forces the print of the file output
 
 f.seek() - seeks for a cursor position in the file
+
+data = f.read() same thing as lines = f.read()
+
