@@ -19,3 +19,37 @@ data = f.read() same thing as lines = f.read()
 cat questions.txt - reads from questions.txt and prints the output
 
 .strip() - method which removes any whitespace in a string
+
+.insert() - inserts an element in the list at a certain location, takes two arguments,
+the index and the element to be replaced
+
+.update() - adds a set of items to another set of items, takes as an argument the set 
+to be updated
+
+.get() - method that prints a value of a dictionary
+
+Example: car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+print(car.get("model"))
+
+.pop() - removes a key from a dictionary
+
+Example: car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.pop["model"]
+
+lambda: can take any number of arguments, useful function that returns a set number 
+of parameters
+
+Example
+x = lambda a:a + 10
+print(x(5)) // returns 15, takes 5 as an argument
+
