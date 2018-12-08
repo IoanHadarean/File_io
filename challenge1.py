@@ -1,4 +1,4 @@
-with open ("newfile.txt", "w+") as file:
-    file.write("Te iubesc, Andreea\n")
-    file.seek(0)
-    lines= file.read()
+with open ("newfile.txt", "w+") as f:
+    f.write("Te iubesc, Andreea\n")
+    f.seek(0)
+    lines= f.read()
